@@ -1,20 +1,34 @@
-### **Boilerplate** for React in Typescript using *Webpack*
+# **Boilerplate** for React in Typescript
 
-- Install Dependencies, 
+- ## React, TypeScript, Webpack
 
-```sh
-$ cd bp-tsoffdocs-react-webpack
-$ yarn install
+  - Install Dependencies, 
 
-#Or, with npm
-$npm install
-```
+  ```sh
+  $ cd boilerpla-webpack-deveact-typescript/react-ts-webpack
+  $ yarn install-webpack-dev
 
-- Run App in **DEV Mode**
-```sh
-$ cd bp-tsoffdocs-react-webpack
-$ yarn run start-webpack-dev
-```
+  #Or, with npm
+  $npm install
+  ```
 
+  - Run App in **DEV Mode**
+  ```sh
+  $ cd boilerplate-react-typescript/react-ts-webpack
+  $ yarn run start-webpack-dev
+  ```
 
+- ## React, TypeScript, Creat-React-App
+  ```sh
+  $ cd boilerplate-react-typescript/react-ts-cra
+  $ yarn install
 
+  #Or, with npm
+  $npm install
+  ```
+
+  - Run App in **DEV Mode**
+  ```sh
+  $ cd boilerplate-react-typescript/react-ts-cra
+  $ yarn run start
+  ```
