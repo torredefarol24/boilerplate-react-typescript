@@ -9,7 +9,7 @@
   $ yarn install-webpack-dev
 
   #Or, with npm
-  $npm install
+  $ npm install
   ```
 
   - Run App in **DEV Mode**
@@ -24,7 +24,7 @@
   $ yarn install
 
   #Or, with npm
-  $npm install
+  $ npm install
   ```
 
   - Run App in **DEV Mode**
