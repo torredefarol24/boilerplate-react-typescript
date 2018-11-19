@@ -1,12 +1,12 @@
 module.exports = {
-  "entry" : "./src/index.tsx",
-  "output" : {
-    filename : "bundle.js",
+  entry : "./src/index.tsx",
+  output : {
+    filename : "react-bundle.js",
     path : __dirname + "/dist"
   },
   devtool : "inline-source-map",
   resolve : {
-    extensions : [ ".ts", ".tsx", ".js", ".json"]
+    extensions : [ ".ts", ".tsx", ".json", ".js"]
   },
   module : {
     rules : [
@@ -19,6 +19,5 @@ module.exports = {
   externals : {
     "react" : "React",
     "react-dom" : "ReactDOM"
-  },
-  "mode" : "development"
+  }
 }

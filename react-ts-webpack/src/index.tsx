@@ -1,10 +1,18 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-
-import { Hello } from './components/Hello'
+import Navbar from './components/navbar/Navbar';
 
 var appRoot = document.getElementById("app-root")
-var AppIndex = <Hello message="TypeScript Fan"></Hello>
 
+export class App extends React.Component{
 
-ReactDOM.render(AppIndex, appRoot);
+  render(){
+    return(
+      <div>
+        <Navbar></Navbar>
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<App/>, appRoot);

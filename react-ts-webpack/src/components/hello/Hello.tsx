@@ -8,7 +8,8 @@ export class Hello extends React.Component <HelloProps> {
   render(){
     return (
       <div>
-        <h1> Hey {this.props.message}!</h1>
+        <h1> Hey <em>{this.props.message}!</em></h1>
+        <p> This is a demo for trying out React with TypeScript & Webpack</p>
       </div>
     )
   }

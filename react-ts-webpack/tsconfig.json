@@ -5,7 +5,8 @@
     "jsx": "react", 
     "sourceMap": true,     
     "outDir": "./dist",              
-    "noImplicitAny": true,     
+    "noImplicitAny": true,
+    "lib" : ["es2016", "dom"]     
   },
   "include": [
     "./src/**/*"

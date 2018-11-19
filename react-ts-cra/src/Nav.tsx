@@ -14,9 +14,9 @@ export const Nav = () => {
           <li className="nav-item active">
             <NavLink className="nav-link" to="/albums"> Albums </NavLink>
           </li>
-          <li className="nav-item active">
+          {/* <li className="nav-item active">
             <NavLink className="nav-link" to="/albums/add"> Add Album </NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

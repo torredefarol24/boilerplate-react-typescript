@@ -23,7 +23,10 @@ var Hello = /** @class */ (function (_super) {
         return (React.createElement("div", null,
             React.createElement("h1", null,
                 " Hey ",
-                this.props.message)));
+                React.createElement("em", null,
+                    this.props.message,
+                    "!")),
+            React.createElement("p", null, " This is a demo for trying out React with TypeScript & Webpack")));
     };
     return Hello;
 }(React.Component));
