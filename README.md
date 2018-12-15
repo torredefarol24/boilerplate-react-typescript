@@ -6,7 +6,7 @@
 
   ```sh
   $ cd boilerpla-webpack-deveact-typescript/react-ts-webpack
-  $ yarn install-webpack-dev
+  $ yarn install
 
   #Or, with npm
   $ npm install
