@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
+  "author": "Toufiq (https://twitter.com/burningraven06)",
+  "description" : "Boilerplate for React in Typescript ",
+  "keywords" : ["react","react-router","typescript", "webpack"],
   "dependencies": {
     "@types/react": "^16.7.6",
     "@types/react-dom": "^16.0.9",
