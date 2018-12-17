@@ -2,6 +2,9 @@
   "name": "todo-ts",
   "version": "0.1.0",
   "private": true,
+  "author": "Toufiq (https://twitter.com/burningraven06)",
+  "description" : "Boilerplate for React in Typescript ",
+  "keywords" : ["react","react-router","typescript"],  
   "dependencies": {
     "@types/jest": "23.3.9",
     "@types/node": "10.12.9",
